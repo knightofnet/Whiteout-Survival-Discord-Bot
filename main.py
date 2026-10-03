@@ -166,7 +166,7 @@ if __name__ == "__main__":
                         print(Fore.YELLOW + "\nNOTE: This update includes changes to main.py. Bot will restart after update." + Style.RESET_ALL)
 
                     fromEnvAutoUpdate = os.environ['AUTO_UPDATE']
-                    response = n
+                    response = 'n'
                     if (fromEnvAutoUpdate is None) :
                         response = input("\nDo you want to update now? (y/n): ").lower()
                     else:
